@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto+Condensed:400,700&display=swap');
+
+body{
+  background-color: #EEE5E9;
+  font-family: 'Poppins';
+  font-size: 12px;
+  color: #247BA0;
+  line-height: 1,5em;
+}
+
+.img-circle {
+  width: 120px;
+  border-radius: 50%;
+}
+
+h1, h2 {
+  color: #006494;
+  font-family: 'Roboto Condensed', ;
+  line-height: 1,5em;
+  padding: 4px 4px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 16px
+}
+
+.container {
+  margin: 0 auto;
+}
+
+@media (max-width: 1820px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 1100px;
+  }
+}
+
+@media (max-width: 1240px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  margin: 10px auto;
+  padding: 30px;
+  border: 1px solid rgba(100,100,100,0.6);
+  border-radius: 4px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.1)
+
+}
+
+.list ul{
+  padding: 0;
+}
+
+.list li {
+  list-style: none;
+  padding: 4px;
+}
+
+.link-button {
+  color: white;
+  background-color: #92DCE5;
+  opacity: 0.8;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link-button:hover {
+  opacity: 1;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 32px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.fab {
+  color: #92DCE5;
+  opacity: 0.8;
+}
+
+.fab:hover {
+  opacity: 1;
+}
